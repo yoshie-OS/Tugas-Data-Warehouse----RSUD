@@ -1,0 +1,5 @@
+STG_EHP_DATASET/
+.streamlit/
+.streamlit/secrets.toml
+dw_rsud.sql
+__pycache__/
