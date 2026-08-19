@@ -6,12 +6,12 @@ Data warehouse simulasi untuk analisis logistik dan aset RSUD. Project ini mengo
 
 Dashboard pada `dashboard.py` menyediakan beberapa kebutuhan fungsional:
 
-- **FR01:** total aset per periode
-- **FR02:** distribusi aset berdasarkan kategori
-- **FR03:** distribusi aset berdasarkan lokasi
-- **FR04:** total nilai aset per periode
-- **FR05:** tren perubahan nilai aset dari waktu ke waktu
-- **FR06:** lima unit dengan total nilai aset tertinggi
+- **KPI01:** total aset per periode
+- **KPI02:** distribusi aset berdasarkan kategori
+- **KPI03:** distribusi aset berdasarkan lokasi
+- **KPI04:** total nilai aset per periode
+- **KPI05:** tren perubahan nilai aset dari waktu ke waktu
+- **KPI06:** lima unit dengan total nilai aset tertinggi
 
 ## Arsitektur Data
 
@@ -110,7 +110,7 @@ Streamlit akan menampilkan URL lokal, biasanya `http://localhost:8501`.
 
 ## Catatan Data
 
-Data lokasi pada sumber saat ini belum representatif. Dashboard menggunakan satu lokasi default, yaitu **Emergency**, untuk aset yang belum memiliki pemetaan lokasi yang memadai. Karena itu, hasil FR03 dan FR06 berdasarkan unit/lokasi perlu ditafsirkan dengan hati-hati.
+Data lokasi pada sumber saat ini belum representatif. Dashboard menggunakan satu lokasi default, yaitu **Emergency**, untuk aset yang belum memiliki pemetaan lokasi yang memadai. Karena itu, hasil KPI03 dan KPI06 berdasarkan unit/lokasi perlu ditafsirkan dengan hati-hati.
 
 ## Status Project
 
